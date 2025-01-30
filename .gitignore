@@ -1,0 +1,135 @@
+#------------------------------------------------------------------------------
+# General .NET / C# ignores
+#------------------------------------------------------------------------------
+
+# Build folders (bin/ obj/)
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.sln.docstates
+*.sln.cache
+
+# Visual Studio Code settings
+.vscode/
+
+# Others
+*.log
+*.pid
+*.pid.lock
+*.sln.ide
+*_i.c
+*_p.c
+*.idb
+*.ipdb
+*.ipdb.index
+*.pdb
+*.opendb
+*.mdb
+*.coverlet.*
+
+# NuGet packages
+*.nupkg
+packages/
+# Uncomment if needed:
+# Packages below node_modules or packages that have to be included might differ
+# if you don't want them tracked
+
+# Resharper / Rider
+*.suo
+*_Resharper.*
+*.DotSettings.user
+*.DotSettings
+**/.idea/
+**/.idea/*
+
+#------------------------------------------------------------------------------
+# Entity Framework / Migrations
+#------------------------------------------------------------------------------
+
+# EFCore
+_UpgradeReport_Files/
+UpgradeLog*.XML
+sql/
+*.mdf
+*.ldf
+*.ndf
+
+#------------------------------------------------------------------------------
+# Merge / Backup
+#------------------------------------------------------------------------------
+
+*.orig
+*.merge
+
+#------------------------------------------------------------------------------
+# OS files
+#------------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+#------------------------------------------------------------------------------
+# Node.js / React ignores
+#------------------------------------------------------------------------------
+
+# Node modules
+node_modules/
+
+# Build outputs (React / Vite / CRA)
+build/
+dist/
+out/
+
+# Test coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+#------------------------------------------------------------------------------
+# Yarn / PNPM / lockfiles (depending on usage)
+#------------------------------------------------------------------------------
+# If you are using npm, you might keep package-lock.json
+# If you are using yarn, you might keep yarn.lock
+# If you are using pnpm, you might keep pnpm-lock.yaml
+# Typically you do NOT ignore lockfiles if you want reproducible builds.
+# So you can comment or uncomment the following lines if needed:
+
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+#------------------------------------------------------------------------------
+# Others
+#------------------------------------------------------------------------------
+
+# Local tooling
+*.localhistory/
+*.swp
+*.swo
+
+# End of .gitignore
